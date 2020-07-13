@@ -1,0 +1,157 @@
+@charset "utf-8";
+/*CSS Document */
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'patua_oneregular';
+    src: url('fonts/patuaone-regular-webfont.woff2') format('woff2'),
+         url('fonts/patuaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	line-height: 2.25rem;
+	background-color: #DE5704;
+	text-align: justify;
+}
+h2,h3,h4,nav,footer{
+    font-family: 'patua_oneregular', sans-serif;
+	line-height: 1.75rem;
+	font-size: 20px;
+}
+img,video,iframe{
+width: 100%;
+}
+main{
+	max-width: 1200px;
+	background-color: white;
+	margin: 0 auto;
+}
+header{
+	background-color: black;
+}
+header h1{
+	font-size: 2.7rem;
+	color: #DE5704;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	font-family: 'patua_oneregular', sans-serif;
+	text-align: center;
+	
+	
+}
+h2{
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: #DE5704;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.5rem;
+	color: #DE5704;
+}
+figcaption{
+	font-size: 1rem;
+	font-style: italic;
+}
+#logo{
+	float: left;
+	width: 100%;
+	padding-bottom: 30px;
+	
+	
+}
+
+nav#menu-principal li{
+	display: inline-block;
+	padding: 10px 0%;
+}
+nav#menu-principal a{
+	padding-left: 200px;
+	color: #BDBDBD;
+	letter-spacing: 1.2px;
+}
+
+nav#menu-principal a:hover{
+	color: #DE5704;
+}
+section{
+	float: left;
+	width: 65%;
+	padding: 50px 3.5% 30px 8%;
+}
+section p{
+	line-height: 2rem;
+	padding: 18px 0%;
+}
+section h3{
+	font-size: 1.3rem;
+}
+.texto{
+	color:#000000;
+	background-color: #BDBDBD;
+	font-size: 1.10rem;
+	font-weight:bold;
+	padding: 10px 3%;
+	margin: 20px 0%; 
+}
+section figure{
+	margin: 20px 0%;
+}
+aside{
+	float: left;
+	width: 35%;
+	padding: 40px 8% 50px 0;
+	margin:95px 0%;
+	line-height: 1.5rem;
+}
+aside h3{
+	padding-top: 45px;
+	padding-bottom: 25px;
+	border-top: 1px solid black;
+}
+aside p{
+	font-size: 12px;
+	padding-bottom: 55px;
+}
+#logof{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 1.5% 10px 7.5%;
+	margin-right: 10px;
+}
+footer{
+	clear: both;
+	background-color: black;
+}
+footer a:hover{
+	color: #DE5704;
+
+}
+footer p{
+	color:#5E5C5C;
+	margin: 0px 7.5% 40px 7.5%;
+
+	padding-bottom: 20px;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h3 a{
+	color: #999;
+}
+a:hover{
+	color:black;
+}
